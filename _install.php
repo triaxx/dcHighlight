@@ -14,8 +14,8 @@
 # -- END LICENSE BLOCK ------------------------------------
 if (!defined('DC_CONTEXT_ADMIN')) { exit; }
  
-$new_version = $core->plugins->moduleInfo('dcHightlight','version');
-$current_version = $core->getVersion('dcHightlight');
+$new_version = $core->plugins->moduleInfo('dcHighlight','version');
+$current_version = $core->getVersion('dcHighlight');
  
 if (version_compare($current_version,$new_version,'>=')) {
 	return;
