@@ -15,10 +15,10 @@
 if (!defined('DC_RC_PATH')) { return; }
 
 $this->registerModule(
-	/* Name */		"Highlight.js (v7.3)",
+	/* Name */		"Highlight.js (v11.6.0)",
 	/* Description*/	"An awesome automatic syntax highlighter",
 	/* Author */		"Osku and contributors",
-	/* Version */		'1.3',
+	/* Version */		'1.4',
 	/* Permissions */	'admin'
 );
 ?>
