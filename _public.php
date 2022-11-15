@@ -39,7 +39,7 @@ class publicHightlightBehaviors
 		
 		$url = $core->blog->getQmarkURL().'pf=dcHighlight';
 		echo
-		'<script type="text/javascript" src="'.$url.'/js/highlight.pack.js"></script>'."\n".
+		'<script type="text/javascript" src="'.$url.'/js/highlight.min.js"></script>'."\n".
 		'<script type="text/javascript">'."\n".
 		"//<![CDATA[\n".
 		'$(function() {'."\n".
