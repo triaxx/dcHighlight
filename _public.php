@@ -28,7 +28,7 @@ class publicHightlightBehaviors
 		$url = $core->blog->getQmarkURL().'pf=dcHighlight';
 		$style = $core->blog->settings->highlight->style;
 		
-		echo '<link rel="stylesheet" href="'.$url.'/styles/'.$style.'.css" type="text/css" media="screen" />'."\n";
+		echo '<link rel="stylesheet" href="'.$url.'/styles/'.$style.'.min.css" type="text/css" media="screen" />'."\n";
 	}
 	
 	public static function footerContent($core)
